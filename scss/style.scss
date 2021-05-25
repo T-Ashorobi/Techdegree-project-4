@@ -1,22 +1,15 @@
 // =========================
-// Partial Imports
+// Sub-folder Imports
 // =========================
 
 // Utilities
-@import 'utilities/index',
-        'utilities/mixins',
-        'utilities/variables';
+@import 'utilities/index';
+        
 
 // Base Styles
-@import 'base/base',
-        'base/index',
-        'base/normalize',
-        'base/typography';
+@import 'base/index';
+       
 
 // Components
-@import 'components/button',
-        'components/form',
-        'components/grid',
-        'components/images',
-        'components/index',
-        'components/nav';
+@import 'components/index';
+        
