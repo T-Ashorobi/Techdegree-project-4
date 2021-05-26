@@ -10,15 +10,13 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
-  &error:hover {
-    color: lighten($color-error, 60%);
-  }
-
 }
 
 .default {
   background-color: $color-default;
-
+  // &:hover {
+  //   color: $color-warning-light;
+  // }
 }
 
 .error {
